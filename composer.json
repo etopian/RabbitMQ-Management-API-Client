@@ -1,5 +1,5 @@
 {
-  "name": "alchemy/rabbitmq-management-client",
+  "name": "etopian/rabbitmq-management-client",
   "type": "library",
   "description": "RabbitMQ Management Plugin API Client",
   "keywords": [
@@ -12,18 +12,22 @@
     {
       "name": "Romain Neutron",
       "email": "imprec@gmail.com"
+    },
+    {
+      "name": "Sami Khan",
+      "email": "contact@etopian.com"
     }
   ],
   "require": {
-    "doctrine/common": ">=2.6.3",
-    "guzzlehttp/guzzle": ">=6.3.3",
+    "doctrine/common": ">=3.1.2",
+    "guzzlehttp/guzzle": ">=7.2",
     "ext-json": "*"
   },
   "require-dev": {
     "php-amqplib/php-amqplib": "dev-master",
     "phpunit/phpunit": ">=7.0",
-    "react/http-client": "^0.5.9",
-    "react/partial": "~2.0",
+    "react/http-client": ">=0.5.9",
+    "react/partial": ">=2.0",
     "seregazhuk/react-promise-testing": "dev-master"
   },
   "autoload": {
@@ -36,7 +40,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "0.1.x-dev"
+      "dev-master": "0.3.x-dev"
     }
   }
 }
